@@ -290,14 +290,18 @@
                     <form class="contact-form" id="bookingForm" action="https://api.web3forms.com/submit" method="POST">
     <!-- Adaugă această linie cu codul primit pe email: -->
     <input type="hidden" name="access_key" value="caacdfcf-d415-4ea4-8a92-f254e7cf4c38">
-    
-    <h3 class="form-title">Programează o vizită</h3>
+
     <!-- restul codului rămâne neschimbat -->
+    <input type="hidden" name="subject" value="🚗 Programare Nouă - Nord Auto Garage">
+
+    <!-- ȘTERGI linia cu from_name dacă ai pus-o, ca să preia automat numele clientului -->
+
     <h3 class="form-title">Programează o vizită</h3>
     <div class="form-group-row">
         <div class="form-group">
             <label for="name">Nume și Prenume</label>
-            <input type="text" id="name" name="Nume_Client" placeholder="ex: Ion Popescu" required>
+            <!-- AICI este cheia: name="name" -->
+            <input type="text" id="name" name="name" placeholder="ex: Ion Popescu" required>
         </div>
         <div class="form-group">
             <label for="phone">Telefon</label>
