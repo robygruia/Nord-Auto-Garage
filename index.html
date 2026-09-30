@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nord Auto Garage | Service Auto & Detailing Premium</title>
+    <meta name="description" content="Reparații auto profesionale, detailing premium și diagnoză computerizată la Nord Auto Garage.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Foaia de stiluri CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigație -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo">
+                 NORD AUTO GARAGE
+            </a>
+
+            <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Deschide meniul">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#acasa" class="active">Acasă</a></li>
+                    <li><a href="#despre">Despre noi</a></li>
+                    <li><a href="#servicii">Servicii</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="tel:0775546681" class="btn btn-nav-cta">
+                <i class="fa-solid fa-phone"></i> 0775 546 681
+            </a>
+        </div>
+    </header>
+
+    <!-- Secțiunea Hero -->
+    <section class="hero-section" id="acasa">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text-col">
+                <div class="badge-hero">CALITATE & PROFESIONALISM</div>
+                <h1 class="hero-title">
+                    REPARAȚII AUTO PROFESIONALE<br>
+                    <span class="text-gradient">ȘI DETAILING PREMIUM</span>
+                </h1>
+                <p class="hero-subtitle">Nord Auto Garage - Servicii complete de mecanică și estetică auto</p>
+                
+                <div class="hero-cta-group">
+                    <a href="tel:0775546681" class="btn btn-primary">
+                        <i class="fa-solid fa-phone-volume"></i> Sună acum
+                    </a>
+                    <a href="https://wa.me/40775546681?text=Buna%20ziua,%20as%20dori%20o%20programare!" target="_blank" class="btn btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Programează pe WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cei 3 piloni de încredere -->
+        <div class="hero-trust-bar">
+            <div class="container trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+                    <div>
+                        <h3>Viteză & Eficiență</h3>
+                        <p>Timp redus de execuție, piese livrate rapid și respect strict pentru termenul promis.</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <div>
+                        <h3>Garanție Servicii</h3>
+                        <p>Factură și garanție completă pentru manoperă și toate piesele montate în service.</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fa-solid fa-award"></i></div>
+                    <div>
+                        <h3>Experiență de peste 15 ani</h3>
+                        <p>Mecanici calificați și echipamente profesionale pentru toate mărcile auto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiunea Despre Noi -->
+    <section class="about-section" id="despre">
+        <div class="container about-grid">
+            <div class="about-text">
+                <div class="section-tag">Despre noi</div>
+                <h2 class="section-title">Misiunea noastră</h2>
+                <p class="about-p">
+                    La <strong>Nord Auto Garage</strong>, pasiunea pentru autovehicule se îmbină cu precizia inginerească. Oferim servicii integrate de la mecanică generală și revizii, până la diagnoză avansată și detailing estetic complet.
+                </p>
+                <p class="about-p">
+                    Folosim cele mai performante soluții chimice de curățare, scule de ultimă generație și testere dedicate pentru identificarea precisă a oricărei defecțiuni.
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight-item"><i class="fa-solid fa-check-circle"></i> Echipă de mecanici certificați</div>
+                    <div class="highlight-item"><i class="fa-solid fa-check-circle"></i> Piese originale & aftermarket de top</div>
+                    <div class="highlight-item"><i class="fa-solid fa-check-circle"></i> Zonă de așteptare modernă</div>
+                </div>
+                <a href="#contact" class="btn btn-secondary">Află mai multe</a>
+            </div>
+            <div class="about-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=900&q=80" alt="Echipa Nord Auto Garage" class="about-img">
+                <div class="about-badge-exp">
+                    <span class="exp-number">15+</span>
+                    <span class="exp-text">Ani de excelență auto</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiunea Servicii & Meniu Prețuri -->
+    <section class="services-section" id="servicii">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="section-tag">Ce oferim</div>
+                <h2 class="section-title">Servicii Profesionale</h2>
+                <p class="section-subtitle">Alege calitatea garantată pentru siguranța și confortul tău</p>
+            </div>
+
+            <!-- Carduri servicii principale -->
+            <div class="services-cards-grid">
+                <div class="service-card">
+                    <div class="card-icon"><i class="fa-solid fa-oil-can"></i></div>
+                    <h3>Schimb Ulei & Filtre</h3>
+                    <p>Revizii complete realizate rapid, verificarea nivelurilor fluidelor și resetare interval service.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-icon"><i class="fa-solid fa-wrench"></i></div>
+                    <h3>Mecanică Generală</h3>
+                    <p>Sisteme frânare, distribuții, suspensie, direcție și reparații motor realizate conform standardelor.</p>
+                </div>
+
+                <div class="service-card highlight">
+                    <div class="card-icon"><i class="fa-solid fa-car-sparkles"></i></div>
+                    <h3>Detailing & Polish</h3>
+                    <p>Corecție lac profesională, protecție ceramică nano și curățare profundă tapițerie textilă/piele.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Diagnoză Computerizată</h3>
+                    <p>Scanare parametri în timp real, citire coduri de eroare și adaptări electronice pentru module.</p>
+                </div>
+            </div>
+
+            <!-- Meniu Servicii & Prețuri -->
+            <div class="pricing-container">
+                <h3 class="pricing-title">Meniu Servicii & Prețuri Orientative</h3>
+                <div class="table-responsive">
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>Serviciu Auto</th>
+                                <th>Descriere succintă</th>
+                                <th class="text-right">Preț orientativ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><i class="fa-solid fa-angle-right text-red"></i> Schimb Ulei & Filtre</td>
+                                <td>Manoperă înlocuire ulei motor + 4 filtre</td>
+                                <td class="price-col text-right">150,00 RON</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-angle-right text-red"></i> Diagnoză Computerizată</td>
+                                <td>Scanare erori, interpretare și ștergere martori bord</td>
+                                <td class="price-col text-right">100,00 RON</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-angle-right text-red"></i> Polish Faruri (set)</td>
+                                <td>Polimerizare + folie protecție regenerativă UV</td>
+                                <td class="price-col text-right">200,00 RON</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-angle-right text-red"></i> Detailing Interior Complet</td>
+                                <td>Curățare injecție-extracție scaune, mochetă, plafon, plastice</td>
+                                <td class="price-col text-right">450,00 RON</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-angle-right text-red"></i> Înlocuire Plăcuțe Frână</td>
+                                <td>Manoperă set față sau set spate</td>
+                                <td class="price-col text-right">120,00 RON</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-angle-right text-red"></i> Tratament Protecție Ceramică</td>
+                                <td>Degresare completă, decontaminare și aplicare strat ceramic 9H</td>
+                                <td class="price-col text-right">850,00 RON</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="pricing-note">* Prețurile sunt orientative și pot varia în funcție de clasa mașinii și gradul de uzură.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiunea Galerie Înainte / După -->
+    <section class="gallery-section" id="galerie">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="section-tag">Portofoliu</div>
+                <h2 class="section-title">Galerie Înainte / După</h2>
+                <p class="section-subtitle">Trage de glisor stânga-dreapta pentru a vedea transformarea</p>
+            </div>
+
+            <div class="before-after-container">
+                <div class="ba-slider" id="baSlider">
+                    <!-- Imagine După (fundal) -->
+                    <div class="img-after" style="background-image: url('https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80');">
+                        <span class="ba-tag tag-after">DUPĂ</span>
+                    </div>
+
+                    <!-- Imagine Înainte (deasupra) -->
+                    <div class="img-before" id="beforeImage" style="background-image: url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80');">
+                        <span class="ba-tag tag-before">ÎNAINTE</span>
+                    </div>
+
+                    <!-- Glisor de control -->
+                    <input type="range" min="0" max="100" value="50" class="slider-input" id="sliderRange">
+                    <div class="slider-line" id="sliderLine">
+                        <div class="slider-button">
+                            <i class="fa-solid fa-arrows-left-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiunea Contact & Formular -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="section-tag">Unde ne găsești</div>
+                <h2 class="section-title">Contact & Programări</h2>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Informații & Hartă -->
+                <div class="contact-info-col">
+                    <div class="info-card">
+                        <h3><i class="fa-solid fa-location-dot"></i> Adresa Service-ului</h3>
+                        <p>Strada Principală, Nr. 124, Sector / Oraș</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3><i class="fa-solid fa-clock"></i> Program de Lucru</h3>
+                        <ul class="schedule-list">
+                            <li><span>Luni - Vineri:</span> <strong>08:30 - 18:00</strong></li>
+                            <li><span>Sâmbătă:</span> <strong>09:00 - 14:00</strong></li>
+                            <li><span>Duminică:</span> <strong>Închis</strong></li>
+                        </ul>
+                    </div>
+
+                    <!-- Google Maps Embed -->
+                    <div class="map-embed">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182245.4795328906!2d26.00282463385759!3d44.43774013444455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac053e63c57c1e57!2sBucure%C8%99ti!5e0!3m2!1sro!2sro!4v1700000000000!5m2!1sro!2sro" 
+                            width="100%" 
+                            height="240" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Formular de contact -->
+                <div class="contact-form-col">
+                    <form class="contact-form" id="bookingForm" action="https://formspree.io/f/robigruia@yahoo.com" method="POST">
+    <h3 class="form-title">Programează o vizită</h3>
+    <div class="form-group-row">
+        <div class="form-group">
+            <label for="name">Nume și Prenume</label>
+            <input type="text" id="name" name="Nume_Client" placeholder="ex: Ion Popescu" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Telefon</label>
+            <input type="tel" id="phone" name="Telefon" placeholder="07xxxxxxxx" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="service">Serviciu solicitat</label>
+        <select id="service" name="Serviciu_Ales" required>
+            <option value="">Selectează serviciul...</option>
+            <option value="Mecanică Generală">Mecanică Generală</option>
+            <option value="Schimb Ulei & Filtre">Schimb Ulei & Filtre</option>
+            <option value="Detailing & Polish">Detailing & Polish</option>
+            <option value="Diagnoză Computerizată">Diagnoză Computerizată</option>
+            <option value="Alt serviciu">Alt serviciu</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Mesaj sau detalii autovehicul</label>
+        <textarea id="message" name="Detalii_Masina" rows="4" placeholder="Marca, modelul mașinii și ce problemă întâmpini..."></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-submit">
+        <i class="fa-solid fa-paper-plane"></i> Trimite Solicitarea
+    </button>
+    <div class="form-status" id="formStatus"></div>
+</form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Magnet Banner -->
+    <section class="lead-magnet-banner">
+        <div class="container lead-magnet-content">
+            <div>
+                <h2>Ai nevoie de o verificare rapidă?</h2>
+                <p>Contactează-ne acum pentru o diagnoză precisă sau o estimare gratuită!</p>
+            </div>
+            <a href="tel:0775546681" class="btn btn-light-pulse">
+                <i class="fa-solid fa-phone"></i> Contactează-ne imediat
+            </a>
+        </div>
+    </section>
+
+    <!-- Subsol (Footer) -->
+    <footer class="main-footer">
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Nord Auto Garage. Toate drepturile rezervate.</p>
+            <div class="agency-credit">
+                <span class="gr-brand">GRSOFTWARE</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scriptul JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
